@@ -1,0 +1,15 @@
+<!--<div>
+    <h2>Hi {{message}}</h2>
+</div>
+
+<app-about [greetMessage]="childmessage"></app-about>-->
+
+<!--<app-about [message]="message"></app-about>-->
+
+<h1>Parent</h1>
+Message: {{message}}
+<app-about (messageEvent)="receiveMessage($event)"></app-about>
+
+
+
+
